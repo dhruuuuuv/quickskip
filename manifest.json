@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "QuickSkip",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "icons": {
+    "48": "icons/logo48.png",
+    "128": "icons/logo128.png"
+  },
+  "action": {
+    "default_title": "⏱ Skip Countdown Timer Buttons"
+  }
+}
